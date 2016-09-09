@@ -307,7 +307,7 @@ var api = 'https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=
       if($('#wikiOPTIONS').val() == '0'){
         $('.wikil').addClass("old3");
           $.each(jsonWIKI[1], function(i, photo){
-              var wiki3HTMLW ='<div class="lightbox_trigger picture wikil" id="'+  (i + 20) +'">'+jsonWIKI[1][i]+'</div>';
+              var wiki3HTMLW ='<div class="lightbox_trigger2 picture wikil" id="'+  (i + 20) +'">'+jsonWIKI[1][i]+'</div>';
               $('.wiki-gallery').append(wiki3HTMLW);
            
        });
